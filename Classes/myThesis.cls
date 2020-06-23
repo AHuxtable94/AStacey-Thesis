@@ -197,13 +197,13 @@
 
 
 
-\setlength{\evensidemargin}{1.96cm}
-%\setlength{\oddsidemargin}{-0.54cm}
+\setlength{\evensidemargin}{1.5cm}
+\setlength{\oddsidemargin}{0.8cm}
 \setlength{\topmargin}{1mm}
 \setlength{\headheight}{1.36cm}
 \setlength{\headsep}{1.00cm}
 \setlength{\textheight}{20.84cm}
-\setlength{\textwidth}{14.5cm}
+\setlength{\textwidth}{15cm}
 \setlength{\marginparsep}{1mm}
 \setlength{\marginparwidth}{3cm}
 \setlength{\footskip}{2.36cm}
@@ -214,7 +214,7 @@
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
 \fancyhf{}
 \fancyhead[RO]{\bfseries\rightmark}
-\fancyhead[LE]{\bfseries\leftmark}\fancyfoot[C]{\thepage}
+\fancyhead[L]{\bfseries\leftmark}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0pt}
 \addtolength{\headheight}{0.5pt}
@@ -261,7 +261,7 @@
     \hrule                                   % horizontal rule
     \rule{\textwidth}{0.5mm} \\
     \vspace{40pt}
-    \huge #1\par                         % chapter title
+    \Huge #1\par                         % chapter title
     \nobreak
     \vskip 40\p@
     \newpage
@@ -465,7 +465,7 @@
   \begin{center}
 %  \vspace*{1.5cm}
 \vspace*{-2.0cm}
-  {\Large \bfseries  Abstract}
+  {\LARGE \bfseries  Abstract}
   \end{center}
   \vspace{0.5cm}
    \begin{quote}}
@@ -478,7 +478,7 @@
 \newenvironment{abstractslong} {\begin{alwayssingle} \pagestyle{empty}
   \begin{center}
   \vspace*{1.5cm}
-  {\Large \bfseries  Abstract}
+  {\LARGE \bfseries  Abstract}
   \end{center}
   \vspace{0.5cm} \begin{quote}}
 {\end{quote}\end{alwayssingle}}
